@@ -16,6 +16,7 @@ class FailedJob extends \Illuminate\Database\Eloquent\Model
 
     protected $casts = [
         'payload' => 'array',
+        'failed_at' => 'datetime',
     ];
 
     protected $dates = [
